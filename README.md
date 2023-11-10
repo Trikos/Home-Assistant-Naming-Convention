@@ -3,11 +3,9 @@ A repository dedicated to best practices for naming devices, sensors, and entiti
 
 ## Table of Contents
 1. [Naming convention](#comprehensive-naming-convention-for-home-assistant)
-2. [Personal Devices](#personal-devices)
-3. [Network Entities](#network-entities)
-4. [Examples of entity_id](#examples-of-entity_id)
-5. [Special Consideratons](#special-considerations-for-device-control-location-vs-function)
-6. [Additional Notes](#additional-notes)
+2. [Examples of entity_id](#examples-of-entity_id)
+3. [Special Consideratons](#special-considerations-for-device-control-location-vs-function)
+4. [Additional Notes](#additional-notes)
 
 ---
 
