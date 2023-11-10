@@ -1,6 +1,14 @@
 # Home Assistant Naming Convention
 A repository dedicated to best practices for naming devices, sensors, and entities in Home Assistant setups. Includes a comprehensive guide to maintaining an organized and manageable smart home ecosystem.
 
+## Table of Contents
+1. [General Structure:](#general-structure)
+2. [Personal Devices](#personal-devices)
+3. [Network Entities](#network-entities)
+4. [Examples of `entity_id`](#examples-of-entity_id)
+5. [Special Considerations](#special-considerations)
+6. [Additional Notes](#additional-notes)
+
 ---
 
 ## Comprehensive Naming Convention for Home Assistant
@@ -30,22 +38,23 @@ _Where:_
 - **`<identifier>`**: Number or short name that distinguishes similar devices.
 - **`<user_code>`**: Initials or nickname of the device owner.
 
-### Examples of `entity_id`:
+---
 
+### Examples of `entity_id`
+
+#### General Structure:
 - `light.kitchen_light_1` - The first light bulb installed in the kitchen.
 - `sensor.bedroom1_thermostat_temperature` - Thermostat for temperature in the first bedroom.
 - `switch.garage_switch_door` - Switch for the garage door.
 - `binary_sensor.livingroom_sensor_motion` - Motion sensor in the living room.
 - `switch.bathroom_plug_heater` - Controlled outlet for the heater in the bathroom.
 
----
-
-### For Personal Devices:
+#### Personal Devices:
 
 - `device_tracker.john_main_phone` - John Doe's main mobile phone.
 - `device_tracker.maria_apple_watch` - Maria Bianchi's Apple Watch.
 
-### For Network Entities:
+#### Network Entities:
 
 - `switch.fritzbox_connection_status` - Internet connection status of the Fritz!Box modem/router.
 - `switch.fritzbox_device_john_phone` - Fritz!Box network device associated with John Doe's mobile phone.
