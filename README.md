@@ -12,12 +12,12 @@ To ensure consistency and ease of use within the Home Assistant environment, we 
 <domain>.<location_code>_<device_code>_<function>_<identifier>
 ```
 
-**Personal Devices:**
+###Personal Devices:
 ```
 <domain>.<user_code>_<device_type>_<identifier>
 ```
 
-**Network Entities:**
+###Network Entities:
 ```
 <domain>.<device_code>_<function>_<identifier>
 ```
