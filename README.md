@@ -2,7 +2,7 @@
 A repository dedicated to best practices for naming devices, sensors, and entities in Home Assistant setups. Includes a comprehensive guide to maintaining an organized and manageable smart home ecosystem.
 
 ## Table of Contents
-1. [Naming convention](#general-structure)
+1. [Naming convention](#comprehensive-naming-convention-for-home-assistant)
 2. [Personal Devices](#personal-devices)
 3. [Network Entities](#network-entities)
 4. [Examples of entity_id](#examples-of-entity_id)
