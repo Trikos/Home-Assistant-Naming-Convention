@@ -7,24 +7,20 @@ A repository dedicated to best practices for naming devices, sensors, and entiti
 
 To ensure consistency and ease of use within the Home Assistant environment, we use the following convention for naming `entity_id` for devices:
 
-
 **General Structure:**
 ```
 <domain>.<location_code>_<device_code>_<function>_<identifier>
 ```
-
 
 **Personal Devices:**
 ```
 <domain>.<user_code>_<device_type>_<identifier>
 ```
 
-
 **Network Entities:**
 ```
 <domain>.<device_code>_<function>_<identifier>
 ```
-
 
 _Where:_
 
@@ -34,7 +30,6 @@ _Where:_
 - **`<identifier>`**: Number or short name that distinguishes similar devices.
 - **`<user_code>`**: Initials or nickname of the device owner.
 
-
 **Examples of `entity_id`:**
 
 - `light.kitchen_light_1` - The first light bulb installed in the kitchen.
@@ -42,7 +37,6 @@ _Where:_
 - `switch.garage_switch_door` - Switch for the garage door.
 - `binary_sensor.livingroom_sensor_motion` - Motion sensor in the living room.
 - `switch.bathroom_plug_heater` - Controlled outlet for the heater in the bathroom.
-
 
 **Special Considerations for Device Control Location vs. Function**
 
@@ -56,18 +50,15 @@ In some cases, a device such as a switch may be physically located in one room b
    - `light.garden_garden_spotlights`:
      This naming indicates the function of the switch (controls spotlights) and the area it actually illuminates (garden), despite the physical location being in the garage. Using `light` instead of `switch` implies the specific use of turning on and off lights, which can be more intuitive if the switch is mainly used for this purpose.
 
-     
 **For Personal Devices:**
 
 - `device_tracker.john_main_phone` - John Doe's main mobile phone.
 - `device_tracker.maria_apple_watch` - Maria Bianchi's Apple Watch.
 
-
 **For Network Entities:**
 
 - `switch.fritzbox_connection_status` - Internet connection status of the Fritz!Box modem/router.
 - `switch.fritzbox_device_john_phone` - Fritz!Box network device associated with John Doe's mobile phone.
-
 
 **Additional Notes:**
 
