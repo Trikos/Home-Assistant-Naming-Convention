@@ -6,7 +6,7 @@ A repository dedicated to best practices for naming devices, sensors, and entiti
 2. [Personal Devices](#personal-devices)
 3. [Network Entities](#network-entities)
 4. [Examples of entity_id](#examples-of-entity_id)
-5. [Special Considerations](#special-considerations)
+5. [Special Consideratons](#special-considerations-for-device-control-location-vs-function)
 6. [Additional Notes](#additional-notes)
 
 ---
