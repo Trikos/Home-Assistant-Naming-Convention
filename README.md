@@ -3,7 +3,7 @@ A repository dedicated to best practices for naming devices, sensors, and entiti
 
 ---
 
-##Comprehensive Naming Convention for Home Assistant**
+##Comprehensive Naming Convention for Home Assistant##
 
 To ensure consistency and ease of use within the Home Assistant environment, we use the following convention for naming `entity_id` for devices:
 
