@@ -5,7 +5,7 @@ A repository dedicated to best practices for naming devices, sensors, and entiti
 1. [General Structure:](#general-structure)
 2. [Personal Devices](#personal-devices)
 3. [Network Entities](#network-entities)
-4. [Examples of](#examples-of)
+4. [Examples of entity_id](#examples-of-entity-id)
 5. [Special Considerations](#special-considerations)
 6. [Additional Notes](#additional-notes)
 
