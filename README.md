@@ -56,6 +56,7 @@ _Where:_
 
 - `switch.fritzbox_connection_status` - Internet connection status of the Fritz!Box modem/router.
 - `switch.fritzbox_device_john_phone` - Fritz!Box network device associated with John Doe's mobile phone.
+- `switch.fritzbox_john_phone_internet_access` - Internet connection access for John Doe's mobile phone.
 
 ---
 
