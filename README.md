@@ -35,6 +35,11 @@ _Where:_
 - **`<function>`**: Detail that provides additional information about the specific function of the device.
 - **`<identifier>`**: Number or short name that distinguishes similar devices.
 - **`<user_code>`**: Initials or nickname of the device owner.
+- **`<domain>`**: The term 'domain' refers to a category or class of entities within the Home Assistant
+system. For example, 'light' is a domain that represents all lighting entities, while 'sensor' 
+represents sensor-type entities. Domains are used to organize and categorize entities based on 
+their functions. In general, domains are not user-defined but are predefined in Home Assistant to 
+represent various types of devices or functions. Here is a list of some _domains_: `person`, `sensor`, `media_player`, `light`, `switch`, `binary_sensor`, `device_tracker`
 
 ---
 
@@ -60,6 +65,22 @@ _Where:_
 
 ---
 
+#### Entity ID naming convention:
+Entity IDs in Home Assistant have specific naming conventions that should be followed to ensure consistency and compatibility. Here are some important guidelines:
+
+- *<b>Lowercase Characters Only:</b>* Entity IDs must consist of lowercase characters and can include underscores. Using uppercase characters or other special characters in entity IDs is not allowed.
+  - Example of <b>valid</b> entity ID: `sensor.temperature_sensor`
+  - Example of <b>invalid</b> entity ID: `sensor.TemperatureSensor`
+
+- *<b>Use Descriptive Names:</b>* While keeping entity IDs short is helpful, it's also essential to make them descriptive. Choose names that clearly represent the entity's function or purpose.
+  - Example of a <b>good</b> entity ID: `sensor.living_room_temperature`
+  - Example of a <b>less descriptive</b> entity ID: `sensor.temp1`
+
+- *<b>Avoid Special Characters:</b>* Do not use special characters, spaces, or punctuation marks in entity IDs. Stick to alphanumeric characters and underscores.
+  - Example of <b>valid</b> entity ID: `sensor.office_thermostat`
+  - Example of <b>invalid</b> entity ID: `sensor/kitchen@temperature`
+
+--- 
 ### Special Considerations for Device Control Location vs. Function
 
 In some cases, a device such as a switch may be physically located in one room but is used to control a device in another location. When naming these entities, you have two approaches:
